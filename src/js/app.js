@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import FormContainer from "./components/container/FormContainer";
+import App from "./components/container/App";
 
-const wrapper = document.getElementById("create-article-form");
-wrapper ? ReactDOM.render(<FormContainer />, wrapper) : false;
+const wrapper = document.getElementById("app");
+wrapper ? ReactDOM.render(<App />, wrapper) : false;
