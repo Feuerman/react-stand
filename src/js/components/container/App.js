@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Datepicker from '../DatePicker/Datepicker.js'
 
 class App extends Component {
     constructor() {
@@ -7,7 +8,7 @@ class App extends Component {
 
     render() {
         return (
-            123
+            <Datepicker/>
         )
     }
 }
